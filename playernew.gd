@@ -66,8 +66,14 @@ func _physics_process(delta: float)-> void:
 	elif is_idling:
 		$AnimatedSprite.stop()
 			
-	_velocity = move_and_slide(_velocity, UP_DIRECTION)
+	_velocity = move_and_slide(_velocity, UP_DIRECTION,false,4,0.785398,false)
 	
+	for i in get_slide_count():
+		var collision = get_slide_collision(i)
+		#Si es una caja lo movemos
+		if collision.collider is Crate:
+			collision.get_collider().apply_central_impulse(-collision.normal * 50)
+			
 
 
 # Called when the node enters the scene tree for the first time.

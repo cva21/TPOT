@@ -16,5 +16,7 @@ func new_game():
 	$Player.start($StartPosition.position)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	if $box.position.y > $Player.position.y:
+		print($Player.position.y)
+		print($box.position.y)

@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "RigidBody2D",
+"class": "Crate",
+"language": "GDScript",
+"path": "res://box.gd"
+} ]
+_global_script_class_icons={
+"Crate": ""
+}
+
 [application]
 
 config/name="Tpot"
