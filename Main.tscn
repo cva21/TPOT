@@ -61,7 +61,6 @@ gravity_scale = 40.0
 [node name="Door" parent="." instance=ExtResource( 6 )]
 position = Vector2( 836, 153 )
 player = NodePath("../Player")
-target = null
 
 [node name="Key" parent="." instance=ExtResource( 5 )]
 position = Vector2( 898, 458 )

@@ -27,10 +27,10 @@ func _on_NearDoor_body_entered(body):
 func _physics_process(delta):
 	if isOverDoor and player.hasKey and Input.is_action_just_pressed("move_right"):
 		$AnimatedSprite.play("open")
+		#TODO: Cambiar de nivel
+		#get_tree().change_scene("res://Nivel_" + str(int(get_tree().current_scene.name)+1)+".tscn")
 		
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+
 func teleport():
 	match teleportState:
 		0:
