@@ -16,7 +16,7 @@ export var gravity := 4500.0
 var screen_size
 var _jumps_made := 0
 var _velocity := Vector2.ZERO
-
+var hasKey := false
 func _ready():
 	screen_size = get_viewport_rect().size #Find size of window
 	hide()

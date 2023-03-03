@@ -20,3 +20,8 @@ func _process(delta):
 	if $box.position.y > $Player.position.y:
 		print($Player.position.y)
 		print($box.position.y)
+	#Volver atrás en el tiempo
+	if Input.is_action_pressed("resetposition"):
+		$Player.start($StartPosition.position)
+	
+	
