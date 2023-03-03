@@ -5,7 +5,6 @@ var isLocked := true
 
 var teleportState = 0
 export(NodePath) onready var player = get_node(player)
-export(NodePath) onready var target = get_node(target)
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"

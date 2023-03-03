@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://playernew.tscn" type="PackedScene" id=1]
 [ext_resource path="res://box.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://new_tileset.tres" type="TileSet" id=4]
 [ext_resource path="res://Key.tscn" type="PackedScene" id=5]
 [ext_resource path="res://door.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Boton.tscn" type="PackedScene" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 518, 10 )
@@ -65,3 +66,6 @@ player = NodePath("../Player")
 [node name="Key" parent="." instance=ExtResource( 5 )]
 position = Vector2( 898, 458 )
 player = NodePath("../Player")
+
+[node name="Boton" parent="." instance=ExtResource( 7 )]
+position = Vector2( 471, 437 )
