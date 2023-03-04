@@ -17,6 +17,8 @@ var screen_size
 var _jumps_made := 0
 var _velocity := Vector2.ZERO
 var hasKey := false
+var numberofclocks := 0
+
 func _ready():
 	screen_size = get_viewport_rect().size #Find size of window
 	hide()
@@ -72,7 +74,7 @@ func _physics_process(delta: float)-> void:
 		var collision = get_slide_collision(i)
 		#Si es una caja lo movemos
 		if collision.collider is Crate:
-			collision.get_collider().apply_central_impulse(-collision.normal * 50)
+			collision.get_collider().apply_central_impulse(-collision.normal * 10)
 			
 
 

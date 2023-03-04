@@ -12,14 +12,10 @@ func _ready():
 	pass # Replace with function body.
 
 func new_game():
-	$box.start($positionbox.position)
 	$Player.start($StartPosition.position)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if $box.position.y > $Player.position.y:
-		print($Player.position.y)
-		print($box.position.y)
 	#Volver atrás en el tiempo
 	if Input.is_action_pressed("resetposition"):
 		$Player.start($StartPosition.position)

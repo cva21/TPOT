@@ -20,12 +20,12 @@ func _on_Door_body_entered(body):
 func _on_Door_body_exited(body):
 	isOverDoor = false
 func _on_NearDoor_body_entered(body):
-	if player.numberofclocks == main_scene.numberofclocks:
-		$AnimatedSprite.play("open")
+	if player.hasKey:
+		$AnimatedSprite.play("closed")
 		isLocked = false
 			
 func _physics_process(delta):
-	if isOverDoor and (player.numberofclocks == main_scene.numberofclocks) and Input.is_action_just_pressed("open_door"):
+	if isOverDoor and player.hasKey and Input.is_action_just_pressed("open_door"):
 		$AnimatedSprite.play("open")
 		#TODO: Cambiar de nivel
 		print(int(main_scene.get_tree().current_scene.name)+1)

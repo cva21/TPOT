@@ -4,7 +4,7 @@ extends Area2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-
+export(NodePath) onready var columna = get_node(columna)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -19,12 +19,17 @@ func _ready():
 
 
 func _on_Superior_body_exited(body):
-	print(body)
-	$Superior/ParteSuperior.disabled = false
-	$AnimatedSprite.play("not")
+	print($Superior.get_overlapping_bodies().size() )
+	if $Superior.get_overlapping_bodies().size() <= 1:
+		$Superior/ParteSuperior.disabled = true
+		$AnimatedSprite.play("not")
+		columna.cerrar()
 
 
 func _on_Superior_body_entered(body):
-	print(body)
-	$Superior/ParteSuperior.disabled = true
-	$AnimatedSprite.play("pushed")
+	print($Superior.get_overlapping_bodies().size() )
+	if $Superior.get_overlapping_bodies().size() <= 1:
+		$Superior/ParteSuperior.disabled = true
+		$AnimatedSprite.play("pushed")
+		columna.abrir()
+	
