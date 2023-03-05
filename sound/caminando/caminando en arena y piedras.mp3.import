@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/caminando en arena y piedras.mp3-767e98194ab2a39aad5c2e221ee422df.mp3str"
+
+[deps]
+
+source_file="res://sound/caminando/caminando en arena y piedras.mp3"
+dest_files=[ "res://.import/caminando en arena y piedras.mp3-767e98194ab2a39aad5c2e221ee422df.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

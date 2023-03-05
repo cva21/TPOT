@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/piedra y arena caen.mp3-b51fe11cd3483b7a22a92a3f5d00ce53.mp3str"
+
+[deps]
+
+source_file="res://sound/efectos niveles/piedra y arena caen.mp3"
+dest_files=[ "res://.import/piedra y arena caen.mp3-b51fe11cd3483b7a22a92a3f5d00ce53.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

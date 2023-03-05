@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/columna moviendose.mp3-f2725789e2e84981efbb7a6b1a675953.mp3str"
+
+[deps]
+
+source_file="res://sound/efectos niveles/columna moviendose.mp3"
+dest_files=[ "res://.import/columna moviendose.mp3-f2725789e2e84981efbb7a6b1a675953.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

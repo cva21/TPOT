@@ -20,6 +20,8 @@ func _on_Door_body_entered(body):
 func _on_Door_body_exited(body):
 	isOverDoor = false
 func _on_NearDoor_body_entered(body):
+	print(main_scene.numberofclocks)
+	print(player.numberofclocks)
 	if player.numberofclocks == main_scene.numberofclocks:
 		$AnimatedSprite.play("open")
 		isLocked = false

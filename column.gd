@@ -15,7 +15,10 @@ func _ready():
 #	pass
 func abrir():
 	$AnimationPlayer.play("open")
+	$MovingSound.play()
 func cerrar():
 	$AnimationPlayer.play("close")
+	$MovingSound.play()
 func cerrarB():
 	$AnimationPlayer.play("closedown")
+	$MovingSound.play()

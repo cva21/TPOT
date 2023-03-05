@@ -1,19 +1,17 @@
 [gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://new_tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://src/niveles/nivel_3_Mesa_de_trabajo_1.jpg" type="Texture" id=2]
 [ext_resource path="res://Key.tscn" type="PackedScene" id=3]
 [ext_resource path="res://playernew.tscn" type="PackedScene" id=5]
 [ext_resource path="res://door.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Level_1.gd" type="Script" id=8]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 518, 10 )
-
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 13.5, 294 )
+extents = Vector2( 10, 546 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 10, 293.5 )
+extents = Vector2( 17, 539.75 )
 
 [node name="Level_3" type="Node"]
 script = ExtResource( 8 )
@@ -24,7 +22,12 @@ position = Vector2( 100, 83 )
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 format = 1
-tile_data = PoolIntArray( 131072, 0, 0, 131073, 0, 0, 131074, 0, 0, 131086, 1, 0, 131087, 0, 0, 196608, 0, 0, 196609, 0, 0, 196610, 0, 0, 196611, 0, 0, 196622, 1, 0, 262144, 0, 0, 262145, 0, 0, 262146, 0, 0, 262147, 0, 0, 262148, 0, 0, 262156, 1, 0, 262158, 1, 0, 327680, 0, 0, 327681, 0, 0, 327682, 0, 0, 327683, 0, 0, 327684, 0, 0, 327685, 0, 0, 327691, 1, 0, 327692, 1, 0, 327694, 1, 0, 393216, 0, 0, 393217, 0, 0, 393218, 0, 0, 393219, 0, 0, 393220, 0, 0, 393221, 0, 0, 393222, 0, 0, 393226, 1, 0, 393227, 1, 0, 393228, 1, 0, 393230, 1, 0, 458752, 0, 0, 458753, 0, 0, 458754, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458764, 0, 0, 458765, 0, 0, 458766, 0, 0, 458767, 0, 0, 524288, 0, 0, 524289, 0, 0, 524290, 0, 0, 524291, 0, 0, 524292, 0, 0, 524293, 0, 0, 524294, 0, 0, 524295, 0, 0, 524296, 0, 0, 524297, 0, 0, 524298, 0, 0, 524299, 0, 0, 524300, 0, 0, 524301, 0, 0, 524302, 0, 0, 524303, 0, 0 )
+tile_data = PoolIntArray( 196636, 0, 0, 196637, 0, 0, 262144, 0, 0, 262145, 0, 0, 327682, 0, 0, 327683, 0, 0, 327705, 0, 0, 327706, 0, 0, 393241, 0, 0, 393242, 0, 0, 458777, 0, 0, 458778, 0, 0, 524294, 0, 0, 524295, 0, 0, 524306, 0, 0, 524307, 0, 0, 524311, 0, 0, 524312, 0, 0, 524313, 0, 0, 524314, 0, 0, 589842, 0, 0, 589843, 0, 0, 589847, 0, 0, 589848, 0, 0, 589849, 0, 0, 589850, 0, 0, 655368, 0, 0, 655369, 0, 0, 655376, 0, 0, 655377, 0, 0, 655378, 0, 0, 655379, 0, 0, 655383, 0, 0, 655384, 0, 0, 655385, 0, 0, 655386, 0, 0, 720912, 0, 0, 720913, 0, 0, 720914, 0, 0, 720915, 0, 0, 720919, 0, 0, 720920, 0, 0, 720921, 0, 0, 720922, 0, 0, 786444, 0, 0, 786445, 0, 0, 786446, 0, 0, 786448, 0, 0, 786449, 0, 0, 786450, 0, 0, 786451, 0, 0, 786455, 0, 0, 786456, 0, 0, 786457, 0, 0, 786458, 0, 0, 851980, 0, 0, 851981, 0, 0, 851982, 0, 0, 851984, 0, 0, 851985, 0, 0, 851986, 0, 0, 851987, 0, 0, 851991, 0, 0, 851992, 0, 0, 851993, 0, 0, 851994, 0, 0, 917516, 0, 0, 917517, 0, 0, 917518, 0, 0, 917519, 0, 0, 917520, 0, 0, 917521, 0, 0, 917522, 0, 0, 917523, 0, 0, 917524, 0, 0, 917525, 0, 0, 917526, 0, 0, 917527, 0, 0, 917528, 0, 0, 917529, 0, 0, 917530, 0, 0, 983040, 0, 0, 983041, 0, 0, 983042, 0, 0, 983043, 0, 0, 983044, 0, 0, 983045, 0, 0, 983046, 0, 0, 983047, 0, 0, 983048, 0, 0, 983049, 0, 0, 983050, 0, 0, 983051, 0, 0, 983052, 0, 0, 983053, 0, 0, 983054, 0, 0, 983055, 0, 0, 983056, 0, 0, 983057, 0, 0, 983058, 0, 0, 983059, 0, 0, 983060, 0, 0, 983061, 0, 0, 983062, 0, 0, 983063, 0, 0, 983064, 0, 0, 983065, 0, 0, 983066, 0, 0, 983067, 0, 0, 983068, 0, 0, 983069, 0, 0, 1048576, 0, 0, 1048577, 0, 0, 1048578, 0, 0, 1048579, 0, 0, 1048580, 0, 0, 1048581, 0, 0, 1048582, 0, 0, 1048583, 0, 0, 1048584, 0, 0, 1048585, 0, 0, 1048586, 0, 0, 1048587, 0, 0, 1048588, 0, 0, 1048589, 0, 0, 1048590, 0, 0, 1048591, 0, 0, 1048592, 0, 0, 1048593, 0, 0, 1048594, 0, 0, 1048595, 0, 0, 1048596, 0, 0, 1048597, 0, 0, 1048598, 0, 0, 1048599, 0, 0, 1048600, 0, 0, 1048601, 0, 0, 1048602, 0, 0, 1048603, 0, 0, 1048604, 0, 0, 1048605, 0, 0 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 5 )]
 
@@ -33,29 +36,25 @@ position = Vector2( 522, 276 )
 current = true
 limit_left = -1
 limit_top = -2
-limit_right = 1027
-limit_bottom = 594
+limit_right = 1920
+limit_bottom = 1080
 editor_draw_limits = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 511, -1 )
-shape = SubResource( 1 )
-
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -8.5, 284 )
+position = Vector2( -12, 536 )
 shape = SubResource( 2 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 1035, 284.5 )
+position = Vector2( 1937, 542.25 )
 shape = SubResource( 3 )
 
 [node name="Door" parent="." instance=ExtResource( 6 )]
-position = Vector2( 982, 90 )
+position = Vector2( 1845, 149 )
 player = NodePath("../Player")
 main_scene = NodePath("..")
 
 [node name="Key" parent="." instance=ExtResource( 3 )]
-position = Vector2( 695, 258 )
+position = Vector2( 1222, 362 )
 player = NodePath("../Player")

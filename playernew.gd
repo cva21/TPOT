@@ -4,9 +4,9 @@ const UP_DIRECTION := Vector2.UP
 
 export var speed := 600.0
 
-export var jump_strength := 1500.0
+export var jump_strength := 2000.0
 export var maximum_jumps := 2
-export var double_jump_strength := 1200.0
+export var double_jump_strength := 1500.0
 export var gravity := 4500.0
 
 
@@ -59,12 +59,13 @@ func _physics_process(delta: float)-> void:
 		$AnimatedSprite.stop()
 	position.x = clamp(position.x, 0, screen_size.x)
 	position.y = clamp(position.y, 0, screen_size.y)
-	if is_jumping or is_double_jumping:
-		$AnimatedSprite.animation = "jump"
-	elif is_running: 
+	if is_running or is_jumping or is_double_jumping: 
 		$AnimatedSprite.animation = "walk"
 		$AnimatedSprite.flip_v = false
 		$AnimatedSprite.flip_h = _velocity.x < 0
+		if $Timer.time_left <= 0:
+			$WalkingSound.play()
+			$Timer.start(6)
 	elif is_idling:
 		$AnimatedSprite.stop()
 			
@@ -74,7 +75,8 @@ func _physics_process(delta: float)-> void:
 		var collision = get_slide_collision(i)
 		#Si es una caja lo movemos
 		if collision.collider is Crate:
-			collision.get_collider().apply_central_impulse(-collision.normal * 10)
+			collision.get_collider().apply_central_impulse(-collision.normal * 20)
+			$MovingBox.play()
 			
 
 

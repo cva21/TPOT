@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/introducir reloj.mp3-7c8c19eb1600698fdcc5f24bf290e3f0.mp3str"
+
+[deps]
+
+source_file="res://sound/efectos niveles/introducir reloj.mp3"
+dest_files=[ "res://.import/introducir reloj.mp3-7c8c19eb1600698fdcc5f24bf290e3f0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

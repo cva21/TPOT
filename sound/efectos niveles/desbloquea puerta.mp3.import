@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/desbloquea puerta.mp3-cdf1b2630091397e8927cd73c7099baf.mp3str"
+
+[deps]
+
+source_file="res://sound/efectos niveles/desbloquea puerta.mp3"
+dest_files=[ "res://.import/desbloquea puerta.mp3-cdf1b2630091397e8927cd73c7099baf.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

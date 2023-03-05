@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/moviendo caja.mp3-33d8d240a0d4b46de787695a7d9841c7.mp3str"
+
+[deps]
+
+source_file="res://sound/efectos niveles/moviendo caja.mp3"
+dest_files=[ "res://.import/moviendo caja.mp3-33d8d240a0d4b46de787695a7d9841c7.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

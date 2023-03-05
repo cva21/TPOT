@@ -1,12 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://src/button/pressed.png" type="Texture" id=1]
-[ext_resource path="res://src/button/not pressed.png" type="Texture" id=2]
+[ext_resource path="res://src/button/boton_nivel_1.png" type="Texture" id=1]
 [ext_resource path="res://BotonB.gd" type="Script" id=3]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 2 ) ],
+"frames": [ ExtResource( 1 ) ],
 "loop": true,
 "name": "not",
 "speed": 5.0
@@ -27,6 +26,8 @@ extents = Vector2( 23.5, 5 )
 script = ExtResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -1, -5 )
+scale = Vector2( 0.109524, 0.0921409 )
 frames = SubResource( 1 )
 animation = "not"
 

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/caminando en arena.mp3-34c60221191b90c30e4181efe14ff673.mp3str"
+
+[deps]
+
+source_file="res://sound/caminando/caminando en arena.mp3"
+dest_files=[ "res://.import/caminando en arena.mp3-34c60221191b90c30e4181efe14ff673.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

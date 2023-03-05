@@ -1,9 +1,92 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=90 format=2]
 
-[ext_resource path="res://src/player/1.png" type="Texture" id=1]
+[ext_resource path="res://src/player/walk/animacion def (2)0020.png" type="Texture" id=1]
 [ext_resource path="res://src/player/0.png" type="Texture" id=2]
 [ext_resource path="res://src/player/2.png" type="Texture" id=3]
 [ext_resource path="res://playernew.gd" type="Script" id=4]
+[ext_resource path="res://src/player/walk/animacion def (2)0021.png" type="Texture" id=5]
+[ext_resource path="res://src/player/walk/animacion def (2)0022.png" type="Texture" id=6]
+[ext_resource path="res://src/player/walk/animacion def (2)0016.png" type="Texture" id=7]
+[ext_resource path="res://src/player/walk/animacion def (2)0018.png" type="Texture" id=8]
+[ext_resource path="res://src/player/walk/animacion def (2)0017.png" type="Texture" id=9]
+[ext_resource path="res://src/player/walk/animacion def (2)0019.png" type="Texture" id=10]
+[ext_resource path="res://src/player/walk/animacion def (2)0040.png" type="Texture" id=11]
+[ext_resource path="res://src/player/walk/animacion def (2)0044.png" type="Texture" id=12]
+[ext_resource path="res://src/player/walk/animacion def (2)0039.png" type="Texture" id=13]
+[ext_resource path="res://src/player/walk/animacion def (2)0046.png" type="Texture" id=14]
+[ext_resource path="res://src/player/walk/animacion def (2)0061.png" type="Texture" id=15]
+[ext_resource path="res://src/player/walk/animacion def (2)0049.png" type="Texture" id=16]
+[ext_resource path="res://src/player/walk/animacion def (2)0062.png" type="Texture" id=17]
+[ext_resource path="res://src/player/walk/animacion def (2)0031.png" type="Texture" id=18]
+[ext_resource path="res://src/player/walk/animacion def (2)0033.png" type="Texture" id=19]
+[ext_resource path="res://src/player/walk/animacion def (2)0029.png" type="Texture" id=20]
+[ext_resource path="res://src/player/walk/animacion def (2)0032.png" type="Texture" id=21]
+[ext_resource path="res://src/player/walk/animacion def (2)0038.png" type="Texture" id=22]
+[ext_resource path="res://src/player/walk/animacion def (2)0035.png" type="Texture" id=23]
+[ext_resource path="res://src/player/walk/animacion def (2)0042.png" type="Texture" id=24]
+[ext_resource path="res://src/player/walk/animacion def (2)0043.png" type="Texture" id=25]
+[ext_resource path="res://src/player/walk/animacion def (2)0036.png" type="Texture" id=26]
+[ext_resource path="res://src/player/walk/animacion def (2)0037.png" type="Texture" id=27]
+[ext_resource path="res://src/player/walk/animacion def (2)0034.png" type="Texture" id=28]
+[ext_resource path="res://src/player/walk/animacion def (2)0045.png" type="Texture" id=29]
+[ext_resource path="res://src/player/walk/animacion def (2)0030.png" type="Texture" id=30]
+[ext_resource path="res://src/player/walk/animacion def (2)0047.png" type="Texture" id=31]
+[ext_resource path="res://src/player/walk/animacion def (2)0048.png" type="Texture" id=32]
+[ext_resource path="res://src/player/walk/animacion def (2)0050.png" type="Texture" id=33]
+[ext_resource path="res://src/player/walk/animacion def (2)0051.png" type="Texture" id=34]
+[ext_resource path="res://src/player/walk/animacion def (2)0052.png" type="Texture" id=35]
+[ext_resource path="res://src/player/walk/animacion def (2)0053.png" type="Texture" id=36]
+[ext_resource path="res://src/player/walk/animacion def (2)0054.png" type="Texture" id=37]
+[ext_resource path="res://src/player/walk/animacion def (2)0055.png" type="Texture" id=38]
+[ext_resource path="res://src/player/walk/animacion def (2)0056.png" type="Texture" id=39]
+[ext_resource path="res://src/player/walk/animacion def (2)0057.png" type="Texture" id=40]
+[ext_resource path="res://src/player/walk/animacion def (2)0028.png" type="Texture" id=41]
+[ext_resource path="res://src/player/walk/animacion def (2)0041.png" type="Texture" id=42]
+[ext_resource path="res://src/player/walk/animacion def (2)0058.png" type="Texture" id=43]
+[ext_resource path="res://src/player/walk/animacion def (2)0059.png" type="Texture" id=44]
+[ext_resource path="res://src/player/walk/animacion def (2)0060.png" type="Texture" id=45]
+[ext_resource path="res://src/player/walk/animacion def (2)0076.png" type="Texture" id=46]
+[ext_resource path="res://src/player/walk/animacion def (2)0069.png" type="Texture" id=47]
+[ext_resource path="res://src/player/walk/animacion def (2)0072.png" type="Texture" id=48]
+[ext_resource path="res://src/player/walk/animacion def (2)0068.png" type="Texture" id=49]
+[ext_resource path="res://src/player/walk/animacion def (2)0081.png" type="Texture" id=50]
+[ext_resource path="res://src/player/walk/animacion def (2)0070.png" type="Texture" id=51]
+[ext_resource path="res://src/player/walk/animacion def (2)0066.png" type="Texture" id=52]
+[ext_resource path="res://src/player/walk/animacion def (2)0064.png" type="Texture" id=53]
+[ext_resource path="res://src/player/walk/animacion def (2)0080.png" type="Texture" id=54]
+[ext_resource path="res://src/player/walk/animacion def (2)0077.png" type="Texture" id=55]
+[ext_resource path="res://src/player/walk/animacion def (2)0074.png" type="Texture" id=56]
+[ext_resource path="res://src/player/walk/animacion def (2)0079.png" type="Texture" id=57]
+[ext_resource path="res://src/player/walk/animacion def (2)0065.png" type="Texture" id=58]
+[ext_resource path="res://src/player/walk/animacion def (2)0073.png" type="Texture" id=59]
+[ext_resource path="res://src/player/walk/animacion def (2)0063.png" type="Texture" id=60]
+[ext_resource path="res://src/player/walk/animacion def (2)0078.png" type="Texture" id=61]
+[ext_resource path="res://src/player/walk/animacion def (2)0067.png" type="Texture" id=62]
+[ext_resource path="res://src/player/walk/animacion def (2)0071.png" type="Texture" id=63]
+[ext_resource path="res://src/player/walk/animacion def (2)0075.png" type="Texture" id=64]
+[ext_resource path="res://src/player/walk/animacion def (2)0082.png" type="Texture" id=65]
+[ext_resource path="res://src/player/walk/animacion def (2)0024.png" type="Texture" id=66]
+[ext_resource path="res://src/player/walk/animacion def (2)0023.png" type="Texture" id=67]
+[ext_resource path="res://src/player/walk/animacion def (2)0026.png" type="Texture" id=68]
+[ext_resource path="res://src/player/walk/animacion def (2)0027.png" type="Texture" id=69]
+[ext_resource path="res://src/player/walk/animacion def (2)0025.png" type="Texture" id=70]
+[ext_resource path="res://src/player/walk/animacion def (2)0013.png" type="Texture" id=71]
+[ext_resource path="res://src/player/walk/animacion def (2)0014.png" type="Texture" id=72]
+[ext_resource path="res://src/player/walk/animacion def (2)0009.png" type="Texture" id=73]
+[ext_resource path="res://src/player/walk/animacion def (2)0005.png" type="Texture" id=74]
+[ext_resource path="res://src/player/walk/animacion def (2)0015.png" type="Texture" id=75]
+[ext_resource path="res://src/player/walk/animacion def (2)0002.png" type="Texture" id=76]
+[ext_resource path="res://src/player/walk/animacion def (2)0006.png" type="Texture" id=77]
+[ext_resource path="res://src/player/walk/animacion def (2)0007.png" type="Texture" id=78]
+[ext_resource path="res://src/player/walk/animacion def (2)0008.png" type="Texture" id=79]
+[ext_resource path="res://src/player/walk/animacion def (2)0010.png" type="Texture" id=80]
+[ext_resource path="res://src/player/walk/animacion def (2)0011.png" type="Texture" id=81]
+[ext_resource path="res://src/player/walk/animacion def (2)0003.png" type="Texture" id=82]
+[ext_resource path="res://src/player/walk/animacion def (2)0012.png" type="Texture" id=83]
+[ext_resource path="res://src/player/walk/animacion def (2)0001.png" type="Texture" id=84]
+[ext_resource path="res://src/player/walk/animacion def (2)0004.png" type="Texture" id=85]
+[ext_resource path="res://sound/caminando/caminando en arena y piedras.mp3" type="AudioStream" id=86]
+[ext_resource path="res://sound/efectos niveles/moviendo caja.mp3" type="AudioStream" id=87]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -12,24 +95,34 @@ animations = [ {
 "name": "jump",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 1 ) ],
+"frames": [ ExtResource( 84 ), ExtResource( 76 ), ExtResource( 82 ), ExtResource( 85 ), ExtResource( 74 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 73 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 83 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 75 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 1 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 67 ), ExtResource( 66 ), ExtResource( 70 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 41 ), ExtResource( 20 ), ExtResource( 30 ), ExtResource( 18 ), ExtResource( 21 ), ExtResource( 19 ), ExtResource( 28 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 22 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 42 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 12 ), ExtResource( 29 ), ExtResource( 14 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 16 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 15 ), ExtResource( 17 ), ExtResource( 60 ), ExtResource( 53 ), ExtResource( 58 ), ExtResource( 52 ), ExtResource( 62 ), ExtResource( 49 ), ExtResource( 47 ), ExtResource( 51 ), ExtResource( 63 ), ExtResource( 48 ), ExtResource( 59 ), ExtResource( 56 ), ExtResource( 64 ), ExtResource( 46 ), ExtResource( 55 ), ExtResource( 61 ), ExtResource( 57 ), ExtResource( 54 ), ExtResource( 50 ), ExtResource( 65 ) ],
 "loop": true,
 "name": "walk",
-"speed": 5.0
+"speed": 30.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 24.5, 26 )
+extents = Vector2( 38.25, 104.25 )
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 4 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 31, -31 )
-scale = Vector2( 0.3, 0.3 )
+position = Vector2( 30, 9 )
+scale = Vector2( 0.255729, 0.274769 )
 frames = SubResource( 1 )
 animation = "walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 31.5, -31 )
+position = Vector2( 3.75, 6.75 )
 shape = SubResource( 2 )
+
+[node name="WalkingSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 86 )
+volume_db = -10.0
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="MovingBox" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 87 )
+volume_db = -15.0
